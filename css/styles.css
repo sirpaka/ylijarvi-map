@@ -1,0 +1,86 @@
+body { 
+    margin: 0; 
+    padding: 0;
+    background-color: #e0ecf0;;   
+} 
+
+#mapThreeD, #mapTerrain {
+    box-sizing: border-box;
+    border: solid black 10px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80vw;
+    height: 70vh;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+@supports (-moz-appearance: none) {
+    #mapThreeD, #mapTerrain {
+        box-sizing: border-box;
+        border: solid black 10px;
+        border-radius: 10px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 170px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 80vw;
+        height: 70vh;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        -o-transform: translate(-50%);
+        }
+}
+
+#description {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu {
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.mapboxgl-popup-close-button {
+    display: none;
+}
+.mapboxgl-popup-content-wrapper {
+    padding: 8px;
+}
+.mapboxgl-popup-content {
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ylijärvi - kilpailualue</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js"></script>
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body onload="showInit()">
+    <div id="description">
+        <h4>Suunnistuksen pitkien matkojen SM-kisat vuonna 2022 Ylämaan Ylijärvellä - kilpailumaasto</h4>
+        <div id="menu">
+            <input id="mapbox-map-design/ckhqrf2tz0dt119ny6azh975y" type="radio" name="toggle"  checked="checked" onclick="showInit()">
+            <label for="mapbox-map-design/ckhqrf2tz0dt119ny6azh975y">3D</label>
+            <input id="outdoors-v11" type="radio" name="toggle" onclick="changeOutdoors()">
+            <label for="outdoors-v11">Maastokartta</label>
+            </div>
+    </div>
+<div id="mapThreeD">   
+</div>
+<div id="mapTerrain">
+</div>
+
+
+ 
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
